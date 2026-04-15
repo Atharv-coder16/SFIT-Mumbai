@@ -38,7 +38,36 @@ venv.bak/
 *.log
 *.sqlite3
 *.db
+# !backend/data/praeventix_cache.db
 archive*
+
+# IDE / Cursor
+.cursor/
+.vscode/
+.idea/
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Frontend build/cache
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local runtime/temp artifacts
+terminals/
+agent-transcripts/
+th.txt
+*.tmp
+*.temp
+*.bak
+*-wal
+*-shm
+*.db-wal
+*.db-shm
 
 # OS generated files
 .DS_Store
